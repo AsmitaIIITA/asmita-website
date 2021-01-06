@@ -2,3 +2,17 @@
 
 /* font-family: 'Roboto', sans-serif; */
 /* How to use Roboto form ^ */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.important{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    color:white;
+    font-size: 14px;
+}

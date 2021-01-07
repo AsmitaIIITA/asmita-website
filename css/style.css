@@ -1,4 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* font-family: 'Roboto', sans-serif; */
 /* How to use Roboto form ^ */
+
+body{ 
+   background: white;
+}
+
+.bgcolor {
+   background: #0F1322;
+}
+
+.p1 {
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 64px;
+   line-height: 75px;
+   letter-spacing: 0em;
+   
+   text-align: center;
+   color: #FFFFFF;
+   margin-bottom: 3rem;  
+}
+
+.img-sponsor {
+   width: 753px;
+   height: 636px;
+}
+
+.p3 {
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 64px;
+   line-height: 94px;
+   
+   color: #FFFFFF;
+   margin:auto;
+   margin-top:23rem;
+}
+
+.img-team {
+   background: url(../assets/images/team.jpg);
+   background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center bottom;
+    background-size:cover;
+
+    height: 1000px;
+   
+}
+
+.img-event {
+   background-image: url(../assets/images/image\ 4.png);
+   background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center bottom;
+    background-size:cover;
+   
+   height: 900px;
+   width: 100%;
+
+}
+
+.p2{
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 64px;
+   line-height: 75px;
+   font-weight: 700;
+   letter-spacing: 0em;
+   
+   padding-top: 15rem;
+
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.button1 {
+   border: none;
+   background-color: #094D8A;
+   padding: 10px 60px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+   
+   color: #FFFFFF;
+
+   margin-top: 2rem;
+
+}
+
+@media (max-width: 768px) {  
+   .img-team {
+      height: 500px;
+   }
+
+   .p3 {
+      font-size: 36px;
+      line-height: 42px;
+
+      margin-top: 12rem;
+   }
+
+   .img-event {
+      height: 500px;
+   }
+
+   .p2 {
+      font-size: 36px;
+      line-height: 42px;
+
+      padding-top: 4rem;
+   }
+
+   .button1 {
+      margin-top: 1rem;
+      padding: 5px 30px;
+   }
+}
+
+@media (max-width: 470px) {
+   .p1 {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42px;
+   }
+
+   .img-team {
+      height: 300px;
+   }
+
+   .p3 {
+      margin-top: 6.5rem;
+   }
+
+   .img-event {
+      height: 300px;
+   }
+}

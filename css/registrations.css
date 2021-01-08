@@ -37,5 +37,9 @@ div.groupedfields {
     padding: 0;
     cursor: pointer;
 }
-
+.ui.button {
+    padding: 0.3em;
+    border: #212529;
+    border-radius: 6px;
+}
 

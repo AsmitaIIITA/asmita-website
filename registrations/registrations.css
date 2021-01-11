@@ -1,0 +1,45 @@
+  
+.ui {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    background-color:#212529 ;
+    color: white;
+    font-size: 24px;
+}
+
+#one {
+    margin: auto;
+    padding: 20px;
+}
+div.field>label {
+    padding: 0.3em 0.5em ;
+    margin-bottom: 0.2em ;
+}
+option {
+    background-color: #212529;
+    font-weight: 500;
+}
+div.field>input,select {
+    width: 100%;
+    padding: 0.65em;
+    border-radius: 9px;
+    background-color: inherit;
+    color: inherit;
+    border: solid;
+    margin-bottom:1.2em;
+}
+div.groupedfields {
+    margin-bottom: 25px;
+}
+.ui.checkbox>input {
+    display: inline-block;
+    background-color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+.ui.button {
+    padding: 0.3em;
+    border: #212529;
+    border-radius: 6px;
+}
+

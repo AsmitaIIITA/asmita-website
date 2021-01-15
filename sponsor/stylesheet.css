@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.sec1{
+    background-color: #0F1322;
+}
+
+.navcontent{
+    padding: 10px;
+}
+
+.navcontent ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    
+}
+
+.navcontent ul li {
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sec1head{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.sec1head{
+    color: #ffffff;
+    font-size: 2em;
+    letter-spacing: 3ch;
+    font-weight: bolder;
+}
+
+.sec1photo{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+svg{
+    width: 100vw;
+}
+
+.sec2{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sec2row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.sec2row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.companydet2{
+    margin: 10px;
+    height: 40vh;
+    align-content: center;
+}
+
+.first_image{
+    height: 20vh;
+    width: 50vw;
+}
+
+.other_images{
+    height: 13vh;
+    width: 25vw;
+}
+
+#other_images6{
+    height: 20vh;
+    width: 20vh;
+    justify-content: center;
+}
+
+#other_images8{
+    height: 16vh;
+    width: 20vw;
+}
+
+.com_name{
+    margin: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    vertical-align: bottom;
+}
+
+.rel{
+    font-size: 0.8em;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.past{
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 1ch;
+}
+
+.galleryrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col{
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+.past_sponser_images{
+    height: 100px;
+    width: 200px;
+}
+
+/*////////////////////*/
+
+.sec3 {
+    background-color: #0F1322;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec3 p{
+    font-weight: bolder;
+    text-align: center;
+    padding: 2em;
+    font-size: 2em;
+    letter-spacing: 1ch;
+    color: #ffffff;
+}
+
+.sec3details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.sec3info{
+    padding: 10px;
+}
+
+.sec3info .heading{
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.sec3info .extra{
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+/*////////////////////*/
+
+
+
+
+
+
+/*meadiaquery */
+@media screen and (max-width: 760px) {
+    /*//////////////*/
+    .sec3info .heading {
+        font-size: 1em;
+    }
+    .sec3info .extra{
+        font-size: 0.5em;
+    }
+    .sec1head p{
+        letter-spacing: 1ch;
+
+    }
+    .navcontent ul li{
+     font-size: small;   
+     margin-left: 5px;
+     margin-right: 5px;
+    }
+    /*////////////////*/
+    .sec2row1{
+        width: 100vw;
+        height: 40vw;
+    }
+    .sec2row2{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    .companydet2{
+        width: 100vw;
+        height: 50vw;
+        justify-content: space-around;
+    }
+    .companydet2 :: after{
+        content: "/a";
+        white-space: pre;
+    }
+    .com_name{
+        font-size: 2em;
+    }
+    .rel{
+        font-size: 1em;
+    }
+    .other_images{
+        height: 10vw;
+        width: 30vw;
+        position: relative;
+        left: 35vw;
+    }
+    #other-images6{
+        left: 20vh;
+    }
+    .galleryrow{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+    .col{
+        width: 100vw;
+        height: 33vw;
+        justify-content: space-around;
+    }
+    .col :: after{
+        content: "/a";
+        white-space: pre;
+    }
+  }

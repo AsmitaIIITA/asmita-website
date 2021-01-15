@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .sec1{
@@ -31,13 +31,10 @@
     display: flex;
     justify-content: center;
     margin: 2em;
-}
-
-.sec1head{
     color: #ffffff;
     font-size: 2em;
     letter-spacing: 3ch;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .sec1photo{
@@ -98,16 +95,18 @@ svg{
 }
 
 .com_name{
-    margin: 10px;
+    margin: 14px;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.6em;
     vertical-align: bottom;
+    font-weight: 600;
 }
 
 .rel{
-    font-size: 0.8em;
+    font-size: 1.2em;
     text-align: center;
     vertical-align: bottom;
+    font-weight: 400;
 }
 
 .past{

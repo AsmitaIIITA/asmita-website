@@ -33,7 +33,7 @@
     margin: 2em;
     color: #ffffff;
     font-size: 2em;
-    letter-spacing: 3ch;
+    letter-spacing: 1ch;
     font-weight: 800;
 }
 
@@ -43,8 +43,13 @@
     height: 100vh;
 }
 
-svg{
-    width: 100vw;
+
+.sec1photo img{
+    position: relative;
+    width: 900px;
+    height: 900px;
+    bottom: 270px;
+    right:2%;
 }
 
 .sec2{

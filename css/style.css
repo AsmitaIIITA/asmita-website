@@ -138,6 +138,9 @@ body{
    font-size: 14px;
 
 }
+.row{
+   margin: 0!important;
+}
 
 @media (max-width: 768px) {  
    .p3 {

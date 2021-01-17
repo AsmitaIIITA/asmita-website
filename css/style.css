@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 /* font-family: 'Roboto', sans-serif; */
 /* How to use Roboto form ^ */
@@ -6,8 +6,8 @@ body{
    background: white;
 }
 
-.bgcolor {
-   background: #0F1322;
+.bg-color {
+   background: #0F1322 !important;
 }
 
 .p1 {
@@ -89,6 +89,18 @@ body{
    color: #FFFFFF;
 
    margin-top: 2rem;
+
+}
+
+.contact{
+   font-size: 30px;
+}
+.sub-head-contact{
+   font-size: 26px;
+   text-align: center;
+}
+.sub-para{
+   font-size: 14px;
 
 }
 

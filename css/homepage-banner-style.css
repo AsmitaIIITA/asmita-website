@@ -1,11 +1,12 @@
 body {
-    background-color: #0f1322;
+    background-color: #0f1322 !important;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
 
 #homepage {
     position: relative;
+    background-color: #0f1322 !important;
 }
 
 nav {
@@ -42,7 +43,6 @@ nav {
     top: 250px;
     left: 0;
     height: 400px;
-    background-color: lightblue;
     z-index: -1;
     background: linear-gradient(139.97deg, #171932 6.79%, #094D8A 161.73%);
     margin-bottom: 30px;
@@ -146,4 +146,8 @@ nav {
         color: white;
         text-decoration: none;
     }
+}
+
+.upper-sec{
+    background-color: #0f1322 !important;
 }

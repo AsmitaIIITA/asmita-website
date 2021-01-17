@@ -1,0 +1,149 @@
+body {
+    background-color: #0f1322;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#homepage {
+    position: relative;
+}
+
+nav {
+    display: none;
+}
+
+#runningman {
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    z-index: 0;
+}
+
+#asmitalogo {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    top: 60px;
+}
+
+#date {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    font-size: 20px;
+    top: 160px;
+    font-weight: 100;
+}
+
+#about {
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 0;
+    height: 400px;
+    background-color: lightblue;
+    z-index: -1;
+    background: linear-gradient(139.97deg, #171932 6.79%, #094D8A 161.73%);
+    margin-bottom: 30px;
+}
+
+#footballer {
+    width: 30%;
+    position: absolute;
+    right: 10px;
+}
+
+#content {
+    padding: 30px;
+}
+
+#content p {
+    width: 100%;
+}
+
+#content button {
+    position: absolute;
+    bottom: 100px;
+    background-color: #354089;
+    padding: 15px;
+    border: none;
+    color: white;
+    width: 150px;
+}
+
+@media (min-width: 500px) {
+    #runningman {
+        width: 40%;
+        position: absolute;
+        left: 190px;
+        top: 80px;
+        z-index: 0;
+    }
+
+    #asmitalogo {
+        position: absolute;
+        right: 50px;
+        width: 275px;
+        top: 70px;
+    }
+
+    #date {
+        width: 300px;
+        top: 270px;
+        right: 50px;
+        font-size: 40px;
+    }
+
+    #about {
+        position: absolute;
+        display: inline-block;
+        width: 45%;
+        top: 400px;
+        left: 50px;
+        height: 450px;
+        background-color: lightblue;
+        z-index: -1;
+        background: linear-gradient(139.97deg, #171932 6.79%, #094D8A 161.73%);
+    }
+    
+    #footballer {
+        width: 30%;
+        position: absolute;
+        right: 10px;
+    }
+    
+    #content {
+        padding: 30px;
+    }
+    
+    #content p {
+        width: 70%;
+    }
+    
+    #content button {
+        position: absolute;
+        bottom: 150px;
+        background-color: #354089;
+        padding: 15px;
+        border: none;
+        color: white;
+        width: 150px;
+    }
+
+    nav {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    
+    nav li {
+        display: inline;
+        margin: 8px;
+    }
+    
+    nav li a {
+        color: white;
+        text-decoration: none;
+    }
+}

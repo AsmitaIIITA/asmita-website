@@ -1,18 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/sponsor.css">
+   <title>Team Page | Asmita</title>
+
+   <meta name="title" content="Asmita'21">
+   <meta
+      content="Asmita is the Annual Sports Fest of IIIT Allahabad. As one of the largest sports fests of India , it is a medium to promote sports and inculcate healthy sportsmanship in young minds in order to feed an arduous tomorrow."
+      name="description" />
+   <meta content="Asmita'21" name="author" />
+   <meta content="Asmita'21, Asmita, sports, fest, IIITA, sports fest" name="keywords" />
+   <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+      name="viewport" />
+
+   <meta name="owner" content="Asmita'21,asmita@iiita.ac.in">
+   <meta name="reply-to" content="asmita@iiita.ac.in">
+   <meta name="copyright" content="Asmita'21">
+
+   <meta name="og:title" content="Asmita'21" />
+   <meta name="og:type" content="website" />
+   <meta name="og:url" content="https://asmita.iiita.ac.in/" />
+   <meta name="og:image" content="" />
+   <meta name="og:description"
+      content="Asmita is the Annual Sports Fest of IIIT Allahabad. As one of the largest sports fests of India , it is a medium to promote sports and inculcate healthy sportsmanship in young minds in order to feed an arduous tomorrow." />
+
+   <meta name="twitter:title" content="Asmita'21">
+   <meta name="twitter:description"
+      content="Asmita is the Annual Sports Fest of IIIT Allahabad. As one of the largest sports fests of India , it is a medium to promote sports and inculcate healthy sportsmanship in young minds in order to feed an arduous tomorrow.">
+   <meta name="twitter:image" content="">
+   <meta name="twitter:card" content="summary_large_image">
+
+   <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+   <script src="https://unpkg.com/vue"></script>
+   <link rel="stylesheet" href="../css/team.css">
    <link rel="stylesheet" href="../css/style.css">
-   <title>Document</title>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+   <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+            rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    
+        <!-- Font -->
+        
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Sponsers</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Register</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
    <div class="container-fluid img-team">
-<!--       <div class="row">
-         <p class="p3">Team Photo</p>
-      </div> -->
+      <div class="" style="display: flex;justify-content: center;align-items: center;height: 100vh;">
+         <p class="h1" style="color: white;">Team Photo</p>
+      </div>
    </div>
+
+   <div id="app" class="container-cards bootstrap-off">
+
+      <div class="tile-post">
+         <h2>Faculty in-charge</h2>
+         <hr>
+      </div>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Faculty in-charge, Sports</span>
+         </p>
+      </Card>
+      <div class="tile-post">
+         <h2>Overall Coordinator</h2>
+         <hr>
+      </div>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Overall Coordinator</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-instagram"></i>
+            </a>
+            <a href="#" target="__blank">
+               <i class="fa fa-facebook"></i>
+            </a>
+            
+            <br>
+            <span>Overall Coordinator</span>
+         </p>
+      </Card>
+
+      <div class="tile-post">
+         <h2>Sports Secretary</h2>
+         <hr>
+      </div>
+
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Sports Secretary</span>
+         </p>
+      </Card>
+
+      <div class="tile-post">
+         <h2>Heads</h2>
+         <hr>
+      </div>
+
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Head Media & Publicity</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Head Appd</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Head Webd</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Head Webd</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Head Webd</span>
+         </p>
+      </Card>
+      <div class="tile-post">
+         <h2>Executives</h2>
+         <hr>
+      </div>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Executive Media & Publicity</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Executive Media & Publicity</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Executive Media & Publicity</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Executive Appd</span>
+         </p>
+      </Card>
+      <Card data-image="../assets/images/dream112.jpg">
+         <h1 slot="header">Garvit Chittora</h1>
+         <p slot="content">
+            <a href="#" target="__blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <br>
+            <span>Executive Webd</span>
+         </p>
+      </Card>
+   </div>
+
+   <footer class="page-footer bg-dark">
+
+      <div class="container text-center text-md-left mt-5">
+          <br>
+          <div class="row ">
+              <h1 class="important" >Contact Us</h1>
+          </div>
+          <br>
+          <div class="row">
+              
+              <div class="col-md-3 mx-auto mb-4">
+                  <h1 class="important" >Address</h1> <br>
+
+                  <p class="mt-2" ><i class="fas fa-map-marked-alt"></i>&nbsp;Asmita Headquarters<br>
+                      IIIT-Allahabad,Jhalwa,Uttar Pradesh-211015</p>
+              </div>
+
+              <div class="col-md-2 mx-auto mb-4" style="padding:0;"> 
+                  <h1 class="important" >Phone</h1> <br>
+                  <p class="mt-2 " ><i class="fas fa-map-marked-alt"></i>&nbsp;Registrations and Enquiry:<br>
+                              +91 9205325547 - Divyansh Tripathi</p>
+                  <p class="mt-2 " ><i class="fas fa-users"></i>&nbsp;Public Relations:<br>
+                          +91 8770347157 - Prasoon Maheshwari</p>
+                  <p class="mt-2 " ><i class="fas fa-calendar-check"></i>&nbsp;Campus Ambassador:<br>
+                          +91 8586044965 - Arnav Agarwal</p>
+              </div>
+
+              <div class="col-md-2 mx-auto mb-4">
+                  <h1 class="important" >Email</h1> <br>
+
+                  <p class="mt-2" style="text-align: center;"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;asmita@iiita.ac.in</p>
+              </div>
+
+              <div class="col-md-3 mx-auto mb-4">
+                  <h1 class="important" >Follow Us</h1> <br>
+                  <div style="display:flex; justify-content: center;">
+                      <a href="https://www.facebook.com/asmitaiiita" target="_blank" class="link"><i class='fab fa-facebook-f'></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <a href="https://www.instagram.com/asmita_iiita/" target="_blank" class="link"><i class='fab fa-instagram'></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+   <script src="../js/team.js"></script>
+   <script src="./js/index.js"></script>
+
 </body>
+
 </html>

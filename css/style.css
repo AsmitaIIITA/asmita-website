@@ -43,24 +43,17 @@ body{
 .img-team {
    background: url(../assets/images/team.jpg);
    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-position: center bottom;
-    background-size:cover;
-
-    height: 1000px;
-   
+   background-size:cover;
+   background-position: 50%;
+   min-height: 100vh;
 }
 
 .img-event {
    background-image: url(../assets/images/image\ 4.png);
    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-position: center bottom;
-    background-size:cover;
-   
-   height: 900px;
-   width: 100%;
-
+   background-size:cover;
+   background-position: 50%;
+   min-height: 100vh;
 }
 
 .p2{
@@ -100,19 +93,11 @@ body{
 }
 
 @media (max-width: 768px) {  
-   .img-team {
-      height: 500px;
-   }
-
    .p3 {
       font-size: 36px;
       line-height: 42px;
 
       margin-top: 12rem;
-   }
-
-   .img-event {
-      height: 500px;
    }
 
    .p2 {
@@ -135,16 +120,8 @@ body{
       line-height: 42px;
    }
 
-   .img-team {
-      height: 300px;
-   }
-
    .p3 {
       margin-top: 6.5rem;
-   }
-
-   .img-event {
-      height: 300px;
    }
 
 }

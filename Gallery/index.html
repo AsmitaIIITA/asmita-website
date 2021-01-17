@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- head -->
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.">
+    <meta name="author" content="David Deutsch">
+    <title>
+      Home | Owl Carousel | 2.3.4
+    </title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/docs.theme.min.css">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+   
+    <!-- Favicons -->
+    <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico"> -->
+
+
+    <!-- javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+
+  </head>
+  <body>
+<!--Owl Carousel-->
+    <div class="home-demo">
+      <div class="row">
+        <div class="large-12 columns">
+          <h2 id="gallery">Gallery</h2>
+          <div class="owl-carousel">
+            <div class="item">
+              <img src="assets\images\football.jpg">
+              <p class="gamename">Football</p>
+            </div>
+            <div class="item">
+              <img src="assets\images\basketball.jpg">
+              <p class="gamename">Basketball</p>
+            </div>
+            <div class="item">
+              <img src="assets\images\gully.jpg">
+              <p class="gamename">Gully cricket</p>
+            </div>
+            <div class="item">
+              <img src="assets\images\swimming.jpg">
+              <p class="gamename">Swimming</p>
+            </div>
+            <div class="item">
+              <img src="assets\images\kabbadi.jpg">
+              <p class="gamename">Kabbadi</p>
+            </div>
+            <div class="item">
+              <img src="assets\images\volleyball.jpg">
+              <p class="gamename">Volleyball</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    </script>
+
+  </body>
+</html>

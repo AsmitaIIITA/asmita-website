@@ -1,0 +1,13 @@
+.line{
+  background:rgb(54, 70, 145);
+  width: 30x;
+  height: 1px;
+}
+.image{
+  height: 90px;
+  width: 90px;
+}
+#txt{
+  font-weight:300; 
+}
+  

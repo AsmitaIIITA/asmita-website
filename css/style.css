@@ -180,3 +180,68 @@
    }
 
 }
+
+.gallary{
+   background-color: white;
+   padding-top: 100px;
+   height: 800px;
+}
+
+.gallary h1{
+   position: relative;
+   left:10%;
+   top:30px;
+   font-weight: 700;
+}
+
+#map{
+   position: relative;
+   float: right;
+   right:8%;
+   top: 500px;
+   width: 420px;
+   height:500px;
+}
+
+.gpics{
+   margin-top: 150px;
+}
+
+@media only screen and (max-width: 480px) {
+   #runningman{
+      display: none;
+   }
+
+   #asmitalogo{
+      margin-top: -10%;
+   }
+
+   #date{
+      margin-top:0% !important;
+      left:27%;
+      font-size: 18px;
+   }
+
+   #about h1{
+      font-size: 25px;
+      text-align: center;
+   }
+
+   #about p{
+      font-size: 15px;
+      text-align: center;
+      padding-top: 20px;
+   }
+
+   #about button{
+      transform: scale(0.7);
+      margin-top: 40% !important;
+   }
+
+   #map{
+      width:280px;
+      height:300px;
+      right:10%;
+      margin-top: 40%;
+   }
+}

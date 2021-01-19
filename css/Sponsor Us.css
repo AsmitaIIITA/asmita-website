@@ -1,7 +1,7 @@
 .box
 {
-    margin-top: 5vw;
-    margin-bottom: -4vw;
+    margin-top: -2vw;
+    margin-bottom: 1vw;
     display: flex;
   justify-content: center;
   align-items: center;
@@ -25,8 +25,7 @@ ul li a
 #sponsor
 {
     height: 10vh;
-    margin-top: 2vw;
-    
+    margin-top: 5vw;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;

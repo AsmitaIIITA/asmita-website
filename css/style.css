@@ -189,7 +189,7 @@
 
 .gallary h1{
    position: relative;
-   left:10%;
+   margin-left:10%;
    top:30px;
    font-weight: 700;
 }

@@ -1,6 +1,6 @@
 .box
 {
-    margin-top: -2vw;
+    margin-top: -8vw;
     margin-bottom: 1vw;
     display: flex;
   justify-content: center;
@@ -108,4 +108,11 @@ padding-top: 3vw;
 padding-bottom: 3vw;
 text-align: center;
 }
+}
+
+@media screen and (max-width: 480px)
+{
+    .box{
+        margin-top: -30%;
+    }
 }

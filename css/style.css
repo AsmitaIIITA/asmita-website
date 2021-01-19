@@ -90,7 +90,7 @@
 .owl-carousel .owl-nav .owl-next:after {
    position: absolute;
    background-image: url('../assets/images/right.png');
-   right: -2%;
+   right: 0%;
    top: 34%;
    background-size: 40px 40px;
    width: 40px; 
@@ -103,7 +103,7 @@
    position: absolute;
    background-image: url('../assets/images/left.png');
    top: 34%;
-   left: -2%;
+   left: 0%;
    background-size: 40px 40px;
    width: 40px; 
    height: 40px;
@@ -158,13 +158,13 @@
       padding: 5px 30px;
    }
    .owl-carousel .owl-nav .owl-next:after {
-      right: -4%;
+      right: 1%;
       top: 26%;
    }
    
    .owl-carousel .owl-nav .owl-prev:after {
       top: 26%;
-      left: -4%;
+      left: 1%;
    }
 }
 

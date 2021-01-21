@@ -38,10 +38,15 @@
     font-weight: 800;
 }
 
+.sec1title {
+  margin-top: 1.5em;
+}
+
 .sec1photo{
     display: flex;
     justify-content: center;
     height: 100vh;
+    
 }
 
 
@@ -51,6 +56,7 @@
     height: 900px;
     bottom: 270px;
     right:2%;
+    margin-top: 1.5em;
 }
 
 .sec2{

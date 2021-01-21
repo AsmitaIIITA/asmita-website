@@ -322,3 +322,12 @@ p span {
   border-bottom: 2px solid #f23a2e;
   margin-left: 45%;
 }
+
+.page-footer h1{
+  text-align: center !important;
+  margin:0 auto;
+}
+
+.sub-para{
+  line-height: 3ch;
+}

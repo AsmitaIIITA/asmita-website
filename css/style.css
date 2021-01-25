@@ -138,6 +138,10 @@
    margin: 0!important;
 }
 
+footer{
+   padding-bottom: 2rem;
+}
+
 @media (max-width: 768px) {  
    .p3 {
       font-size: 36px;

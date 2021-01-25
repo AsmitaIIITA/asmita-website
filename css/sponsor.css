@@ -52,10 +52,8 @@
 
 .sec1photo img{
     position: relative;
-    width: 900px;
-    height: 900px;
-    bottom: 270px;
-    right:2%;
+    width: 100vw;
+    max-height: 900px;
     margin-top: 1.5em;
 }
 
@@ -139,14 +137,18 @@
 }
 
 .col{
-    margin: 20px;
-    height: 100px;
+    min-height: 200px;
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .past_sponser_images{
-    height: 100px;
-    width: 200px;
+    max-height: 100px;
+    max-width: 200px;
 }
 
 /*////////////////////*/
@@ -190,13 +192,6 @@
     font-size: 1em;
 }
 
-/*////////////////////*/
-
-
-
-
-
-
 /*meadiaquery */
 @media screen and (max-width: 760px) {
     /*//////////////*/
@@ -206,10 +201,10 @@
     .sec3info .extra{
         font-size: 0.5em;
     }
-    .sec1head p{
+    /* .sec1head p{
         letter-spacing: 1ch;
 
-    }
+    } */
     .navcontent ul li{
      font-size: small;   
      margin-left: 5px;

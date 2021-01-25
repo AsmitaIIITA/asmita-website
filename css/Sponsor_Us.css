@@ -6,7 +6,7 @@
   align-items: center;
   position: relative;
   width: 51vw;
-  /* height: 51vh; */
+  border-radius: 10px;
   margin-left: 25vw;
   background: linear-gradient(139.97deg, #171932 6.79%, #094d8a 161.73%);
   z-index: 2;
@@ -24,20 +24,18 @@ ul li a {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 3.4rem;
+  font-size: 2.4rem;
   line-height: 4rem;
   color: #ffffff;
 }
 
 #brochure {
   height: 10vh;
-
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 2.4rem;
-
   color: #e5e5e5;
 }
 #download {
@@ -45,12 +43,13 @@ ul li a {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin:auto;
   text-decoration: none;
   line-height: 2rem;
   background: #354089;
-  padding: 2rem;
+  padding: 1rem;
+  border-radius: 50px;
   color: #ffffff;
 }
 ul{
@@ -83,6 +82,7 @@ ul{
     font-size: 3vw;
     line-height: 4vw;
     padding: 1rem;
+    border-radius: 30px;
   }
 }
 

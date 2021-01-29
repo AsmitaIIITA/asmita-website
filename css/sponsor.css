@@ -65,7 +65,7 @@
 
 .heading2{
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.9em;
 }
 
 .sec2row1{
@@ -88,9 +88,21 @@
     align-content: center;
 }
 
+.companydet h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.companydet2 h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .first_image{
-    height: 20vh;
-    width: 50vw;
+    position: relative;
+    left:32%;
 }
 
 .other_images{
@@ -112,7 +124,7 @@
 .com_name{
     margin: 14px;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.3em;
     vertical-align: bottom;
     font-weight: 600;
 }
@@ -147,8 +159,12 @@
 }
 
 .past_sponser_images{
-    max-height: 100px;
+    max-height: 130px;
     max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /*////////////////////*/
@@ -262,4 +278,8 @@
         content: "/a";
         white-space: pre;
     }
+  }
+
+  hr{
+      height: 1px;
   }

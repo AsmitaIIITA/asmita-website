@@ -70,8 +70,8 @@
 
 .sec2row1{
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
     margin-bottom: 40px;
     margin-top: 20px;
 }
@@ -92,12 +92,14 @@
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    margin-top: 20px;
 }
 
 .companydet2 h1{
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    margin-top: 20px;
 }
 
 .first_image{
@@ -164,7 +166,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /* width: 50%; */
+    margin-top: 30px;
 }
 
 /*////////////////////*/
@@ -227,10 +230,10 @@
      margin-right: 5px;
     }
     /*////////////////*/
-    .sec2row1{
+    /* .sec2row1{
         width: 100vw;
         height: 40vw;
-    }
+    } */
     .sec2row2{
         justify-content: center;
         display: flex;

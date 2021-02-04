@@ -27,11 +27,11 @@
 }
 
 .sec1head{
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     justify-content: center;
-    margin: 2em;
-    margin-top: 0em;
+    /* margin: 2em; */
+    /* margin-top: 0em; */
     color: #ffffff;
     font-size: 2em;
     letter-spacing: 1ch;
@@ -45,27 +45,27 @@
 .sec1photo{
     display: flex;
     justify-content: center;
-    height: 100vh;
-    
+    /* height: 100vh; */
 }
 
 
 .sec1photo img{
     position: relative;
-    width: 100vw;
-    max-height: 900px;
-    margin-top: 1.5em;
+    /* width: 100vw; */
+    max-height: 500px;
+    padding: 3rem 0;
 }
 
 .sec2{
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .heading2{
     font-weight: 700;
     font-size: 1.9em;
+    margin: 2rem 0 0 0;
 }
 
 .sec2row1{
@@ -124,11 +124,10 @@
 }
 
 .com_name{
-    margin: 14px;
     text-align: center;
     font-size: 1.3em;
     vertical-align: bottom;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .rel{
@@ -163,6 +162,16 @@
 .past_sponser_images{
     max-height: 130px;
     max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    margin-top: 30px;
+}
+
+.past_sponser_images_2{
+    max-height: 100px;
+    max-width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -251,7 +260,7 @@
         white-space: pre;
     }
     .com_name{
-        font-size: 2em;
+        font-size: 1em;
     }
     .rel{
         font-size: 1em;

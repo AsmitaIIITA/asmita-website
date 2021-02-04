@@ -40,6 +40,7 @@
 
 .sec1title {
   margin-top: 1.5em;
+  width: 100%;
 }
 
 .sec1photo{
@@ -53,7 +54,7 @@
     position: relative;
     /* width: 100vw; */
     max-height: 500px;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .sec2{

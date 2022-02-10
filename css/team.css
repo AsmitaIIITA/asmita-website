@@ -227,10 +227,10 @@ h1+p, p+p {
 }
 
 .container-cards a {
-  opacity: 0;
+  /* opacity: 0; */
   top: -70px;
   transition: .3s ease-out all;
-  background: #fff;
+  /* background: #fff; */
   padding: 12px 20px;
   text-decoration: none;
   color: black !important;
@@ -331,3 +331,115 @@ p span {
 .sub-para{
   line-height: 3ch;
 }
+.listOfMembers {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.member-card {
+  position: relative;
+  flex-basis: 225px;
+  flex-shrink: 1;
+  flex-grow: 0;
+  position: relative;
+  margin: 10px;
+  height: 300px;
+  max-height: 300px; /*remove this later */
+  overflow: hidden;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.transparent-bg {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000);
+}
+
+.member-logoLink {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.member-logo {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.member-logoLink img {
+  width: 70px;
+  height: 70px;
+}
+
+.member-shortInfo {
+  flex-basis: 30%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 100%;
+  color: #fff;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.member-name {
+  font-size: 18px;
+  margin: 25px 0px 5px;
+}
+
+.member-otherInfo {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.member-socials {
+  display: block;
+  text-align: center;
+  max-height: 0;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  color: #fff;
+  padding: 0;
+  overflow: hidden;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.349);
+  transition: all 0.5s linear;
+}
+.member-socials a img {
+  color: #fff;
+  margin: 8px 0;
+  /* font-size: 20px; */
+  height: 20px;
+  /* display: block !important; */
+
+  /* margin: 100px; */
+}
+.member-socials:hover {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+}
+
+.member-card:hover .member-socials {
+  max-height: 50px;
+}
+
+/* .member-socials span {
+  display: block;
+  bottom: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+  transition: opacity 0.2s;
+} */

@@ -432,14 +432,9 @@ p span {
   max-height: 50px;
 }
 
-/* .member-socials span {
-  display: block;
-  bottom: 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: bold;
-  color: #fff;
-  text-decoration: none;
-  margin: 10px 0;
-  transition: opacity 0.2s;
-} */
+#footer{
+  width: 100%;
+}
+#footer .link{
+  background-color: white;
+}
